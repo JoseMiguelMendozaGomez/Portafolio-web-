@@ -1,0 +1,147 @@
+.section-principal {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  width: 100%;
+  height: 700px;
+
+}
+
+.div-cv {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+
+}
+
+.div-img {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+}
+
+.div-img img {
+  width: 540px;
+  height: 480px;
+  margin-top: -50px;
+  margin-left: 100px;
+  border-radius: 50%;
+  background-color: rgba(252, 245, 237, 0.9);
+}
+
+.div-sobre {
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.div-sobre h1 {
+  font-size: 36px;
+  padding-top: 180px;
+  margin-left: -500px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+.div-sobre p {
+  font-size: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+.div-sobre span {
+  font-size: 40px;
+  padding-top: 70px;
+  padding-left: 10px;
+  color: black;
+
+}
+
+.div-sobre h2 {
+  font-size: 16px;
+  padding-top: 0px;
+  padding-left: 10px;
+  color: black;
+}
+
+.hero-logos .js-logo {
+  width: 55px;
+  height: 25px;
+}
+
+.hero-logos .react-logo {
+  width: 35px;
+  height: 25px;
+
+}
+
+.hero-logos .tailwind-logo {
+  width: 38px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.hero-logos .git-logo {
+  width: 45px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.hero-logos .sql-logo {
+  margin-top: 5px;
+  width: 65px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.hero-logos .php-logo {
+  margin-top: 5px;
+  width: 40px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.hero-logos .zendesk-logo {
+  margin-top: 5px;
+  width: 40px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.hero-logos .html-logo {
+  margin-top: 5px;
+  width: 35px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.hero-logos .css-logo {
+  margin-top: 5px;
+  width: 25px;
+  height: 30px;
+  margin-left: 10px;
+}
+.section-principal .div-sobre img {
+  transition: transform 0.3s; /* Agrega una transición suave a la propiedad transform */
+}
+
+.section-principal .div-sobre img:hover {
+  transform: scale(1.9); /* Puedes ajustar el valor según tus preferencias (1.1 significa un 10% más grande) */
+}
+.section-principal .div-img img {
+  transition: transform 0.3s; /* Agrega una transición suave a la propiedad transform */
+}
+
+.section-principal .div-img img:hover {
+  transform: scale(1.1); /* Puedes ajustar el valor según tus preferencias (1.1 significa un 10% más grande) */
+}

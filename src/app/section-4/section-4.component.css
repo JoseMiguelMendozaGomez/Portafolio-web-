@@ -1,0 +1,75 @@
+.sec-footer {
+    padding-top: 270px;
+
+}
+
+.div-footer {
+    background-color:#1F1717;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+   
+}
+
+.wha {
+    margin-left: 500px;
+    margin-bottom: 10px;
+   
+}
+
+.num {
+    margin-left: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.gmail {
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+
+}
+
+.correo {
+    margin-left: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.git {
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+.LinkedIn {
+    margin-bottom: 8px;
+    margin-left: 40px;
+}
+
+.lkn {
+    margin-left: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+.sec-footer img {
+    transition: transform 0.3s; /* Agrega una transición suave a la propiedad transform */
+  }
+  
+  .sec-footer img:hover {
+    transform: scale(1.9); /* Puedes ajustar el valor según tus preferencias (1.1 significa un 10% más grande) */
+  }
+  

@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #F5F7F8;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* Ajusta el tamaño de la imagen según sea necesario */
+
+}
+body {
+  overflow-x: hidden;
+}

@@ -1,0 +1,106 @@
+.section-3 {
+    display: flex;
+    width: auto;
+    height: 350px;
+    background-color: transparent;
+    margin-top: 40px;
+
+}
+.espacio{
+    margin-top: 70px;
+}
+.tit2 h1{
+    font-size: 36px;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+  }
+
+.div-izq {
+    display: flex;
+    width: 30%;
+
+}
+
+.div-izq img {
+    margin-left: 50px;
+    width: 560px;
+    height: 550px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.div-der {
+    display: flex;
+    flex-direction: row;
+    width: 68%;
+    background-color: rgba(169, 169, 169, 0.1);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 550px;
+}
+
+.der-abajo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.der-abajo2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.exp {
+    margin-left: 150px;
+    margin-top: 20px;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.der-abajo2 .edu {
+    margin-left: 250px;
+    margin-top: 20px;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.der-abajo .exp-lug{
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 40px;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+}
+.div-der p{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.der-abajo2 .edu-lug{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+}
+.der-abajo2-fecha{
+    margin-left: 150px;
+    margin-top: 0x;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
