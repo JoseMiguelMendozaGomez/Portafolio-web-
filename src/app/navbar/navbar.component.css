@@ -100,7 +100,7 @@
         margin-top: 60px;
         font-weight: bold;
         text-decoration: none;
-        margin-left: 150px;
+        margin-left: 130px;
     }
 }
 @media screen and (max-width: 1048px) {
@@ -134,19 +134,5 @@
         width: 80%;
     }
 }
-@media screen and (min-width: 1161px) {
-    .navbarder .cnt {
-        font-size: 25px;
-        color: white;
-        margin-right: 20px;
-        font-family: 'Exo 2', sans-serif;
-        margin-top: 60px;
-        font-weight: bold;
-        text-decoration: none;
-        margin-left: 150px;
-    }
-    .navbarder{
-        width: 80%;
-    }
 
-}
+
