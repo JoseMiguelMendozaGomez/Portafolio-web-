@@ -145,3 +145,37 @@
 .section-principal .div-img img:hover {
   transform: scale(1.1); /* Puedes ajustar el valor según tus preferencias (1.1 significa un 10% más grande) */
 }
+
+@media screen and (max-width: 1350px) {
+  .section-principal {
+      flex-direction: row; /* Cambia la dirección del flexbox para centrar en pantallas más grandes */
+      align-items: center;
+  }
+
+  .div-sobre,
+  .div-img {
+      width: 70%; /* Ajusta según tus necesidades */
+  }
+
+  /* Ajustes para el texto en la etiqueta p y la span */
+  .div-sobre p,
+  .div-sobre span {
+      font-size: 25px; /* Reducción de 10 puntos en el tamaño de fuente */
+  }
+
+  /* Ajustes para la imagen formal sin fondo */
+  .div-img img {
+      width: calc(100% - 50px); /* Reducción del ancho respetando el rango de diferencia */
+      height: calc(100% - 50px); /* Mantén la proporción original */
+      margin-left: 50px; /* Reducción del margen a la izquierda en 50px */
+  }
+ 
+}
+
+
+
+
+
+
+
+
